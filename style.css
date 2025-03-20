@@ -1,0 +1,188 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #333;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbox {
+  fit-content: center;
+  width: 400px;
+  height: 50px;
+}
+
+.navitem {
+  color: orange;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  margin: 25px;
+  text-decoration: none;
+}
+
+.cols {
+  display: flex;
+  width: auto;
+  gap: 20px;
+}
+
+.selectorcols {
+  display: flex;
+  width: auto;
+  gap: 15px;
+}
+
+.selector {
+  border-radius: 0px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-style: solid;
+  height: max-content;
+  width: max-content;
+  background-color: purple;
+}
+
+#display {
+  width: 400px;
+}
+
+hr {
+  max-width:530px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.work th {
+  font-size: 20px;
+}
+
+.spacer {
+  border: 1px solid white;
+}
+
+.link {
+  border-radius: 10px;
+  background-color: blue;
+  padding: 5px;
+  color: skyblue;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.pic {
+  border-radius: 40px;
+}
+
+h1 {
+  color: orange;
+  letter-spacing: 14px;
+  background-color: black;
+  max-width: 410px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+body {
+  font-family: "Trebuchet MS";
+  background-color: #121212;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid white;
+}
+
+h4 {
+  text-align: center;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  padding: 5px;
+}
+
+#info{
+  padding-top:20px;
+  padding-bottom: 20px;
+  max-width: 500px;
+}
+
+#icon{
+  filter: invert(11%) sepia(72%) saturate(5762%) hue-rotate(341deg) brightness(98%) contrast(105%);
+}
+
+#iconbox{
+  display:flex;
+  color:white;
+  font-size: 30px;
+  margin-left:auto;
+  margin-right:auto;
+  width:300px;
+  padding-bottom:5px;
+}
+
+.sev{
+  padding-bottom:10px;
+  width:500px;
+}
+
+#sevtext{
+  text-align:center;
+  width:300px;
+}
+
+#thicc{
+  border-width:3px;
+  margin-left:40px;
+}
+
+#lkdin{
+  padding-top:50px;
+  border-style:solid;
+  margin-left:0;
+  width:500px;
+  height:200px;
+}
+
+#biglkdin{
+  font-size:50px;
+  width: fit-content;
+block-size: fit-content;
+}
+
+#email{
+ font-size:20px;
+  border-style:solid;
+  width:60%;
+  text-align:center;
+  margin:auto;
+}
+
+#maillink{
+  font-weight:bolder;
+  color:orange;
+}
+
+#bar{
+  border-style:solid;
+  padding:10px;
+  width:fit-content;
+  margin:auto;
+  margin-top:20px;
+}
